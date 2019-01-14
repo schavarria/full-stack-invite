@@ -1,0 +1,73 @@
+body{
+    background-image:url(https://blog.spoongraphics.co.uk/wp-content/uploads/2012/01/Untitled-1.jpg)
+}
+.monsterCon{
+    margin:auto;
+    margin-top: 50px;
+    width:350px;
+    border: double darkblue;
+    background-color: rgba(154, 154, 160, .7);
+    text-align: center;
+
+}
+a{
+    color:black;
+    text-decoration-line:underline;
+    text-decoration-color:gray;
+
+}
+
+a:hover{
+    color:white;
+    text-decoration-line:underline;
+    text-decoration-color:blue;
+    font-size: 17px;
+}
+img{
+    width: 150px;
+    border-radius: 100px;
+}
+
+.pathsCon{
+display: flex;
+justify-content: space-around;
+}
+
+.userCon{
+    border-top:1px solid rgb(67,70,72);
+    padding: 10px;
+  
+
+}
+.name{
+    text-transform: capitalize;
+}
+
+.go, .notgo{
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.go{
+    margin-right: 15px;
+  
+}
+
+.go:hover{
+    cursor: pointer;
+    background-color: green;
+    border:1px solid  black;
+    color: white;
+    font-size: 18px;
+}
+
+.notgo:hover{
+    cursor: pointer;
+    background-color: red;
+    border:1px solid  black;
+    color: white;
+    font-size: 18px;
+}
+

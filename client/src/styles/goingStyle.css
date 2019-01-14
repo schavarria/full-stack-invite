@@ -1,0 +1,26 @@
+.mainCon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+    margin:auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: double darkblue;
+    background-color: rgba(154, 154, 160, .7);
+    
+    
+
+}
+.goingCon{
+    width:210px;
+    border-bottom:1px solid rgb(67,70,72);
+    padding: 10px;
+    
+}
+.image{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
